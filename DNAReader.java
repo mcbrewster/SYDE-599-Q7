@@ -15,19 +15,19 @@ public class DNAReader {
             switch(current) {
                 case 'A':
                 complmentaryStrand += "T";
-                mRNA += "U";
+                mRNA += "A";
                   break;
                 case 'C':
                 complmentaryStrand += "G";
-                mRNA += "G";
+                mRNA += "C";
                   break;
                 case 'T':
                 complmentaryStrand += "A";
-                mRNA += "A";
+                mRNA += "U";
                 break;
                 case 'G':
                 complmentaryStrand += "C";
-                mRNA += "C";
+                mRNA += "G";
                   break;
                 default:
                   // do nothing
